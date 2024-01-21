@@ -1,0 +1,30 @@
+#control flow (when we want to skip or perform operation on certain lines of code accoriding to our condition)
+#if elif else statements
+num=float(input("Enter the number "))
+if(num>0):
+    print("Positive")   #indentation means that this block of code is for that particular statement like here print statement is for if block
+elif(num==0):
+    print("Zero")
+else:
+    print("Negative")
+print("Outside the body of if else")
+
+'''if num=1
+        output
+Positive
+Outside the body of if else
+'''
+
+##Nested if else
+#Leap year(if year is divisible by 4 then check if it is divisible by 100 if it is divisible by 100 check if it divisible by 400 if yes then leap year else not a leap year, if it is not divisible by 100 then leap year if not divisible by 4 then not a leap year)
+year=int(input("Enter the year "))
+if(year%4==0):
+    if(year%100==0):
+        if(year%400==0):
+            print(f"The {year} year is a leap year")
+        else:
+            print(f"The {year} year is not a leap year ")
+    else:
+        print(f"The {year} year is a leap year")
+else:
+    print(f"The {year} year is not a leap year ")
