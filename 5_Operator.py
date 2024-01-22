@@ -6,6 +6,7 @@ print(20*3) #for multiplication
 print(20/3) #for division
 print(20**3) #for power (20power3)
 print(20//3) #for division that ignores the floating point and gives only integer
+print(20%3) #gives the remainder
 
 ##logical operator (and, or , not)
 #1and operator returns the next value is the first operand is true (non zero=true operand, zero=false operand)
@@ -64,3 +65,9 @@ c=[1,"Atul",89]
 print(a is b)    #True
 print(a is c)    #False a is c: This is False because a and c are different objects in memory. Even though their contents may be the same, they are distinct lists
 print(b is c)    #False
+
+#bitwsie operator
+a=2
+b=1
+print(a&b) #bitlevel operation
+print(a|b)
