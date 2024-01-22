@@ -1,4 +1,4 @@
-#Repeating ceratin lines for n amount of time
+#Repeating certain lines for n amount of time
 #for loops works on the concept of iterator and iterable
 #iterable are object which can be broken down in smaller parts for example array,string,tuple,dic etc
 #An iterator is an object that represents a stream of data
