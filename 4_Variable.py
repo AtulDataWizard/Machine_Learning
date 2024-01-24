@@ -1,4 +1,4 @@
-#Variable are the bucket where we store data
+#Variable are the bucket where we store data and use later whenever we require
 #Variable names are case sensitive
 A=10
 a=1
@@ -11,6 +11,13 @@ _="Atul" #valid
 # %a=10 #not valid
 i='a' #valid
 ab_12=10 #valid
+# hey@u=2 #not valid
+
+a,b=10,20
+print(a,b) #10 20
+
+#PEMDAS(Parenthesis, exponential, mul,div,add,sun)
+print(1+2*5/3) #(Follows Pemdos)
 
 a=10
 a+1
