@@ -15,6 +15,15 @@ b=float(input("Enter the second number "))
 print(type(a))   #output int
 print(type(b))   #outout float
 
+a=12.324234
+b=int(a)
+print(a) #12
+
+a=[1,2,3]
+b=str(a)
+type(b)
+print(b)
+
 a='2.7'
 b=float(a)   #string to integer
 print(b)
