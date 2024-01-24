@@ -19,11 +19,6 @@ a=12.324234
 b=int(a)
 print(a) #12
 
-a=[1,2,3]
-b=str(a)
-type(b)
-print(b)
-
 a='2.7'
 b=float(a)   #string to integer
 print(b)
