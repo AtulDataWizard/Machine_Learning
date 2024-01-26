@@ -1,8 +1,61 @@
-#Repeating certain lines for n amount of time
+#Repeating ceratin lines for n amount of time
 #for loops works on the concept of iterator and iterable
 #iterable are object which can be broken down in smaller parts for example array,string,tuple,dic etc
 #An iterator is an object that represents a stream of data
 
+#print n numbers
+a=int(input("Enter the range"))
+for number in range(1,a+1):
+    print(number)
+
+#strings
+for character in "Atul":
+    print(character*2)
+
+'''output
+AA
+tt
+uu
+ll'''
+
+#ranges
+print(list(range(6))) #gives list of integer from 0 to 5
+print(list(range(1,6))) ##gives list of integer from 1 to 5
+print(list(range(1,6,2))) #skips by 2 
+print(list(range(7,0,-1))) #7 to 1 by skipping -1
+
+#Exercise
+for i in range(1,21):
+    if(i==4 or i==13):
+        print(f"{i} is unlucky")
+    elif(i%2==0):
+        print(f"{i} is even")
+    else:
+        print(f"{i} is odd")
+
+#emoji print
+rows=int(input("Enter the number of rows: "))
+i=1
+while(i<=rows):
+    print(i*"\U0001f600")
+    i+=1
+    
+'''output
+😀
+😀😀
+😀😀😀
+😀😀😀😀
+😀😀😀😀😀'''
+
+#funny convo 
+print("Hey how are you? ")
+    
+while(a!="stop copying me"):
+    a=input()
+    if(a=="stop copying me"):
+        break
+    print(a)
+print("UGH FINE YOU WIN")
 #sum of first n natural number
 a=int(input("Enter the number you want to till sum of "))
 sum=0
@@ -92,3 +145,22 @@ while(i<=num):
             print(i-1)
             break
     i+=1
+#way 2
+num=int(input("Enter the number you want to find root of "))
+i=1
+while(i*i<=num):
+    i+=1
+print(i-1)
+
+#Linear Search
+list=[1,2,3,10,7,4]
+flag= False
+key=int(input("Enter the key "))
+for i in list:
+  if(i==key):
+    flag=True
+    break
+if(flag):
+  print("Key is found")
+else:
+  print("Key is not found")
