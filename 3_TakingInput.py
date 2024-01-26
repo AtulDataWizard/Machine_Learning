@@ -33,4 +33,3 @@ f=float(input("Enter the fahernheit temprature "))
 c=(f-32)*5/9
 print(c) #in float
 ci=int((f-32)*5/9)
-print(ci)
