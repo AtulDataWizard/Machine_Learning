@@ -56,6 +56,19 @@ a=[10,20]
 b=30
 print(b not in a) #true
 
+user_info={"name":"Atul",
+           "favColor":"Black",
+           "Hates":"Jyoti",
+           "IsGoodATCoding":True,
+        "Year":3}
+
+print("Dict in func") 
+print("name" in user_info)
+print("Hello" in user_info)
+#to check for values
+print("Jyoti" in user_info.values())
+
+
 ##relationship operator (is, is not)
 #relationship operator The 'is' operator in Python is used to test whether two variables refer to the same object(address) in memory.
 print("relationship operator")
